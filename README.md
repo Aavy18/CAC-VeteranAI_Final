@@ -12,7 +12,6 @@ Table of Contents:
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Example](#example)
 - [License](#license)
 
 -------------------------------
@@ -38,7 +37,7 @@ It also includes emergency keyword detection that can connect users to crisis re
 
 
 -------------------------------
-## Requirments
+## Requirements
 -------------------------------
 - **Python 3.10+**
 - Ollama (local AI runtime)
@@ -60,7 +59,7 @@ Install ollama and tkinter(tk)
 Use:
 ```bash
 pip install tk ollama
-```bash
+```
 
 -------------------------------
 Install Ollama
@@ -77,7 +76,9 @@ Download Mistral Model
 VAI uses the “Mistral” model for its responses.
 
 In Terminal, type:
+```bash
 ollama pull mistral
+```
 
 This will download the AI model locally (only required once).
 
