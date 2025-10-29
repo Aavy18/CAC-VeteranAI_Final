@@ -130,6 +130,5 @@ class VAI:
 if __name__ == "__main__":
     root = tk.Tk()
     helper = VAI(root)
-    running = True
     root.mainloop()
 
