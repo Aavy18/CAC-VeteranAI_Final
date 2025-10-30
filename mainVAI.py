@@ -9,7 +9,6 @@ Created on Sun Oct 26 15:22:32 2025
 This is the main file for the CAC Veteran AI project
 """
 
-#tejas can u fix the code so that it works with ollama(like the input and text files)
 import ollama
 import tkinter as tk
 from tkinter import scrolledtext
@@ -28,8 +27,8 @@ class VAI:
         # Chat display box
         self.chat_box = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=60, height=20, state="disabled", borderwidth=0)
         self.chat_box.pack(pady=10)
-        #in a real situation, this would be 988
-        self.temp_number = "+12177291176"
+        #this is a filler phone number, sin a real situation, this would be 988
+        self.temp_number = "+1"
         # Input text box
         self.text_area = tk.Entry(root, width=50, borderwidth=0)
         self.text_area.pack(pady=5)
@@ -107,7 +106,7 @@ class VAI:
                 #call suicide helpline; in reality, this would put the user on call with 988
                 print("Callling 988")
                 self.append_message("VeteranAI", "You look like you could be in distress - Calling 988")
-                #tejas number rn, in reality, we would change this to 988
+                #currently, this is a filler number. In reality, this would be 988
                 self.call_number(self.temp_number)
                 break
     
