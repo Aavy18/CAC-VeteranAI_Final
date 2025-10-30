@@ -4,7 +4,7 @@
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange)
 ![AI Model](https://img.shields.io/badge/Model-Mistral-yellow)
 
-CAC Veteran AI, or VAI for short, is a submission to the Congressional App Challenge made by Aavyan Anand and Tejas Kashyap
+CAC Veteran AI, or VAI for short, is a submission to the Congressional App Challenge made by Aavyan Anand and Tejas Kashyap.
 This is the final Repository to submit for both Tejas and Aavyan.
 
 Table of Contents:
